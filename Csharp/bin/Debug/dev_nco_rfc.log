@@ -1,0 +1,447 @@
+**** Trace file opened at 2023-01-19 12:54:20+03:00 (Türkiye Standart Saati)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\Users\DefarOtomasyon\Desktop\FORMA PRESS\Csharp\bin\Debug, Program: C:\Users\DefarOtomasyon\Desktop\FORMA PRESS\Csharp\bin\Debug\Csharp.exe
+	Hardware: PC with Windows NT, Processor: 8x Intel 80686 (Mod 140 Step 2), Operating system: Microsoft Windows NT 6.2.9200.0, .NET CLR version: 4.0.30319.42000
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: OZAN-DEFAR, IP address: 127.0.0.1, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2023-01-19 12:54:20.248
+Failure to create pool for destination SAPConnect
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.10.197:3300' not reached
+TIME        Thu Jan 19 12:54:20 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 192.168.10.197:3300
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     1
+
+   konum: SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   konum: SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   konum: SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+>> Error entry 2023-01-19 12:54:20.268
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.10.197:3300' not reached
+TIME        Thu Jan 19 12:54:20 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 192.168.10.197:3300
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     1
+
+   konum: SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   konum: SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   konum: SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+   konum: SAP.Middleware.Connector.RfcConnectionManager.GetClient(RfcDestination destination, Boolean forRepository)
+   konum: SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   konum: SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Trace file opened at 2023-01-19 14:30:33+03:00 (Türkiye Standart Saati)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\Users\DefarOtomasyon\Desktop\FORMA PRESS\Csharp\bin\Debug, Program: C:\Users\DefarOtomasyon\Desktop\FORMA PRESS\Csharp\bin\Debug\Csharp.exe
+	Hardware: PC with Windows NT, Processor: 8x Intel 80686 (Mod 140 Step 2), Operating system: Microsoft Windows NT 6.2.9200.0, .NET CLR version: 4.0.30319.42000
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: OZAN-DEFAR, IP address: 192.168.226.130, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2023-01-19 14:30:33.759
+Failure to create pool for destination SAPConnect
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       timeout occured
+TIME        Thu Jan 19 14:30:33 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -5
+MODULE      gwxx.c
+LINE        646
+DETAIL      timeout 60000 msecs
+SYSTEM CALL GwRead
+COUNTER     1
+
+   konum: SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   konum: SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   konum: SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+>> Error entry 2023-01-19 14:30:33.759
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       timeout occured
+TIME        Thu Jan 19 14:30:33 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -5
+MODULE      gwxx.c
+LINE        646
+DETAIL      timeout 60000 msecs
+SYSTEM CALL GwRead
+COUNTER     1
+
+   konum: SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   konum: SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   konum: SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+   konum: SAP.Middleware.Connector.RfcConnectionManager.GetClient(RfcDestination destination, Boolean forRepository)
+   konum: SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   konum: SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Trace file opened at 2023-01-20 09:02:08+03:00 (Türkiye Standart Saati)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\Users\DefarOtomasyon\Desktop\FORMA PRESS\Csharp\bin\Debug, Program: C:\Users\DefarOtomasyon\Desktop\FORMA PRESS\Csharp\bin\Debug\Csharp.exe
+	Hardware: PC with Windows NT, Processor: 8x Intel 80686 (Mod 140 Step 2), Operating system: Microsoft Windows NT 6.2.9200.0, .NET CLR version: 4.0.30319.42000
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: OZAN-DEFAR, IP address: 127.0.0.1, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2023-01-20 09:02:08.313
+Failure to create pool for destination SAPConnect
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.10.197:3300' not reached
+TIME        Fri Jan 20 09:02:08 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 192.168.10.197:3300
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     1
+
+   konum: SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   konum: SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   konum: SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+>> Error entry 2023-01-20 09:02:08.324
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.10.197:3300' not reached
+TIME        Fri Jan 20 09:02:08 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 192.168.10.197:3300
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     1
+
+   konum: SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   konum: SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   konum: SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+   konum: SAP.Middleware.Connector.RfcConnectionManager.GetClient(RfcDestination destination, Boolean forRepository)
+   konum: SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   konum: SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Trace file opened at 2023-02-10 16:32:27+03:00 (Türkiye Standart Saati)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\Users\DefarOtomasyon\Desktop\FORMA PRESS\Csharp\bin\Debug, Program: C:\Users\DefarOtomasyon\Desktop\FORMA PRESS\Csharp\bin\Debug\Csharp.exe
+	Hardware: PC with Windows NT, Processor: 8x Intel 80686 (Mod 140 Step 2), Operating system: Microsoft Windows NT 6.2.9200.0, .NET CLR version: 4.0.30319.42000
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: OZAN-DEFAR, IP address: 172.31.0.67, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2023-02-10 16:32:27.737
+Failure to create pool for destination SAPConnect
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.10.197:3300' not reached
+TIME        Fri Feb 10 16:32:27 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 192.168.10.197:3300
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     1
+
+   konum: SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   konum: SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   konum: SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+>> Error entry 2023-02-10 16:32:27.746
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.10.197:3300' not reached
+TIME        Fri Feb 10 16:32:27 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 192.168.10.197:3300
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     1
+
+   konum: SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   konum: SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   konum: SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+   konum: SAP.Middleware.Connector.RfcConnectionManager.GetClient(RfcDestination destination, Boolean forRepository)
+   konum: SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   konum: SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Trace file opened at 2023-02-21 11:45:51+03:00 (Türkiye Standart Saati)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\Users\DefarOtomasyon\Desktop\FORMA PRESS\CSharp Güncel\Csharp\bin\Debug, Program: C:\Users\DefarOtomasyon\Desktop\FORMA PRESS\CSharp Güncel\Csharp\bin\Debug\Csharp.exe
+	Hardware: PC with Windows NT, Processor: 8x Intel 80686 (Mod 140 Step 2), Operating system: Microsoft Windows NT 6.2.9200.0, .NET CLR version: 4.0.30319.42000
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: OZAN-DEFAR, IP address: 192.168.114.130, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2023-02-21 11:45:51.933
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '192.168.10.197:3300' broken
+TIME        Tue Feb 21 11:45:51 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5087
+DETAIL      NiIRead: P=192.168.10.197:3300; L=10.112.140.12:56509
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+   konum: SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   konum: SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   konum: SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   konum: SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   konum: SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   konum: SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   konum: SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   konum: SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   konum: SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   konum: SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Trace file opened at 2023-02-22 15:32:03+03:00 (Türkiye Standart Saati)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\Users\DefarOtomasyon\Desktop\EAE PROJECTS\FORMA PRESS\CSharp Güncel\Csharp\bin\Debug, Program: C:\Users\DefarOtomasyon\Desktop\EAE PROJECTS\FORMA PRESS\CSharp Güncel\Csharp\bin\Debug\Csharp.exe
+	Hardware: PC with Windows NT, Processor: 8x Intel 80686 (Mod 140 Step 2), Operating system: Microsoft Windows NT 6.2.9200.0, .NET CLR version: 4.0.30319.42000
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: OZAN-DEFAR, IP address: 192.168.2.26, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2023-02-22 15:32:03.728
+SAP.Middleware.Connector.RfcSerializationException: End mark of RFCID. not found.
+   konum: SAP.Middleware.Connector.RfcConnection.ReadRfcIDEnd(RFCID rid)
+   konum: SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   konum: SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   konum: SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   konum: SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   konum: SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   konum: SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Trace file opened at 2023-02-23 12:29:10+03:00 (Türkiye Standart Saati)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\Users\DefarOtomasyon\Desktop\EAE PROJECTS\FORMA PRESS\CSharp Güncel\Csharp\bin\Debug, Program: C:\Users\DefarOtomasyon\Desktop\EAE PROJECTS\FORMA PRESS\CSharp Güncel\Csharp\bin\Debug\Csharp.exe
+	Hardware: PC with Windows NT, Processor: 8x Intel 80686 (Mod 140 Step 2), Operating system: Microsoft Windows NT 6.2.9200.0, .NET CLR version: 4.0.30319.42000
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: OZAN-DEFAR, IP address: 192.168.2.26, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2023-02-23 12:29:10.050
+Failure to create pool for destination SAPConnect
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.10.197:3300' not reached
+TIME        Thu Feb 23 12:29:10 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 192.168.10.197:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+   konum: SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   konum: SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   konum: SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+>> Error entry 2023-02-23 12:29:10.068
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.10.197:3300' not reached
+TIME        Thu Feb 23 12:29:10 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 192.168.10.197:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+   konum: SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   konum: SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   konum: SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+   konum: SAP.Middleware.Connector.RfcConnectionManager.GetClient(RfcDestination destination, Boolean forRepository)
+   konum: SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   konum: SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Trace file opened at 2023-02-23 12:40:50+03:00 (Türkiye Standart Saati)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\Users\DefarOtomasyon\Desktop\EAE PROJECTS\FORMA PRESS\CSharp Güncel\Csharp\bin\Debug, Program: C:\Users\DefarOtomasyon\Desktop\EAE PROJECTS\FORMA PRESS\CSharp Güncel\Csharp\bin\Debug\Csharp.exe
+	Hardware: PC with Windows NT, Processor: 8x Intel 80686 (Mod 140 Step 2), Operating system: Microsoft Windows NT 6.2.9200.0, .NET CLR version: 4.0.30319.42000
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: OZAN-DEFAR, IP address: 192.168.2.26, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2023-02-23 12:40:50.356
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       client with wrong appc header version rejected
+TIME        Thu Feb 23 12:40:50 2023
+RELEASE     720
+COMPONENT   CPIC (TCP/IP) with Unicode
+VERSION     3
+RC          246
+MODULE      r3cpic.c
+LINE        8553
+DETAIL      client version 6, gateway version 192 (192.168.10.197/3300)
+COUNTER     2
+
+   konum: SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   konum: SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   konum: SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   konum: SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   konum: SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   konum: SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   konum: SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   konum: SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   konum: SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   konum: SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+>> Error entry 2023-02-23 13:57:58.884
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.10.197:3300' not reached
+TIME        Thu Feb 23 13:57:58 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 192.168.10.197:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     3
+
+   konum: SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   konum: SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   konum: SAP.Middleware.Connector.RfcConnectionPool.GetClient()
+   konum: SAP.Middleware.Connector.RfcConnectionManager.GetClient(RfcDestination destination, Boolean forRepository)
+   konum: SAP.Middleware.Connector.RfcSessionManager.GetConnection(RfcDestination dest)
+   konum: SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Trace file opened at 2023-02-27 09:31:47+03:00 (Türkiye Standart Saati)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\Users\DefarOtomasyon\Desktop\EAE PROJECTS\FORMA PRESS\CSharp Güncel\Csharp\bin\Debug, Program: C:\Users\DefarOtomasyon\Desktop\EAE PROJECTS\FORMA PRESS\CSharp Güncel\Csharp\bin\Debug\Csharp.exe
+	Hardware: PC with Windows NT, Processor: 8x Intel 80686 (Mod 140 Step 2), Operating system: Microsoft Windows NT 6.2.9200.0, .NET CLR version: 4.0.30319.42000
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: OZAN-DEFAR, IP address: 192.168.2.26, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2023-02-27 09:31:47.764
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       client with wrong appc header version rejected
+TIME        Mon Feb 27 09:31:47 2023
+RELEASE     720
+COMPONENT   CPIC (TCP/IP) with Unicode
+VERSION     3
+RC          246
+MODULE      r3cpic.c
+LINE        8553
+DETAIL      client version 6, gateway version 192 (192.168.10.197/3300)
+COUNTER     2
+
+   konum: SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   konum: SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   konum: SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   konum: SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   konum: SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   konum: SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   konum: SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   konum: SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   konum: SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   konum: SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Trace file opened at 2023-02-27 12:46:09+03:00 (Türkiye Standart Saati)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\Users\DefarOtomasyon\Desktop\EAE PROJECTS\FORMA PRESS\CSharp Güncel\Csharp\bin\Debug, Program: C:\Users\DefarOtomasyon\Desktop\EAE PROJECTS\FORMA PRESS\CSharp Güncel\Csharp\bin\Debug\Csharp.exe
+	Hardware: PC with Windows NT, Processor: 8x Intel 80686 (Mod 140 Step 2), Operating system: Microsoft Windows NT 6.2.9200.0, .NET CLR version: 4.0.30319.42000
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: OZAN-DEFAR, IP address: 192.168.2.26, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2023-02-27 12:46:09.019
+Failure to create pool for destination SAPConnect
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.10.197:3300' not reached
+TIME        Mon Feb 27 12:46:09 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 192.168.10.197:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+   konum: SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   konum: SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   konum: SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+>> Error entry 2023-02-27 12:46:09.022
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.10.197:3300' not reached
+TIME        Mon Feb 27 12:46:09 2023
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 192.168.10.197:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+   konum: SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   konum: SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   konum: SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+   konum: SAP.Middleware.Connector.RfcConnectionManager.GetClient(RfcDestination destination, Boolean forRepository)
+   konum: SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   konum: SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
